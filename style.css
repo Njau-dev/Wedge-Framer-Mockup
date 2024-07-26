@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+body {
+    
+    width: 100%;
+}
+
+/* banner /header */
+
+.header {
+    background-color: #f6f5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 200px 80px 128px 80px;
+    z-index: 1;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    height: 350px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content h1 {
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    text-wrap: wrap;
+    
+}
+
+.content p {
+    color: #455366;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.content .btns button {
+    width: 160px;
+    height: 52px;
+    padding: 16px 28px;
+    margin: 10px;
+    border-radius: 16px;
+    border: none;
+}
+
+.content .btns .purple-btn {
+    background-color: #463fa5;
+    color: white;
+    
+}
+
+.banner-img {
+    background-image: linear-gradient(#f6f5ff, #b8b3ff 95%);
+    width: 109%;
+    padding: 0;
+    overflow-x: visible;
+    padding-bottom: 100px;
+}
+
+
+/* banner end  */
+
+/* scroll logos  */
+
+.trustees {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.trustees h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* scroll end  */
+
+
+/* wedge  */
+
+.wedge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.wedge h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #f6f5ff;
+    height: 340px;
+    width: 420px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    flex: 1 0 0px;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card i {
+    color: #463fa5;
+    
+}
+
+.card-txt h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.card-txt p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* wedge end  */
+
+/* features  */
+
+.features {
+    margin-top: 200px;
+
+}
+
+.row:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.row {
+    height: 672px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 96px;
+
+}
+
+.row img {
+    height: 100%;
+
+}
+
+.txt {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* features end  */
