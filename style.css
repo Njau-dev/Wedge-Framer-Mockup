@@ -14,6 +14,59 @@ body {
     width: 100%;
 }
 
+/* nav  */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo  {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logins a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logins button {
+    border: none;
+    background-color: #463fa5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: white;
+} 
+
+/* nav end  */
+
 /* banner /header */
 
 .header {
@@ -24,8 +77,7 @@ body {
     text-align: center;
     justify-content: center;
     gap: 80px;
-    padding: 200px 80px 128px 80px;
-    z-index: 1;
+    padding: 100px 80px 128px 80px;
 }
 
 
@@ -188,3 +240,108 @@ body {
 }
 
 /* features end  */
+
+/* reviews  */
+
+.h-rev {
+    text-align: center;
+    margin: 200px 0 50px 0;
+}
+
+.h-rev h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.reviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.client {
+    width: 400px;
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.client .stars {
+    color: #463fa5;
+}
+
+.client p {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
+}
+
+
+.client .customer {
+    display: flex;
+    gap: 1rem;
+}
+
+.client .customer h6 {
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.client .customer .custompic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* reviews end  */
+
+
+
+
+/* footer */
+
+.frow{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 100px 0;
+}
+
+.col{
+  
+    margin: 0 10px;                  
+}
+
+.col ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;         
+}
+
+.col ul li {
+    line-height: 2.7;
+}
+
+.col ul li a {
+    text-decoration: none;
+    color: #333;              
+    transition: color 0.3s, background-color 0.3s; 
+    font-weight: bold;        
+}
+
+.col ul li a:hover {
+    background-color: #e9ecef; 
+    padding: 5px 10px;
+    border-radius: 5px;        
+    color: #007bff;            
+}
+
+
+/* footer end  */
