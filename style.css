@@ -210,6 +210,25 @@ body {
 
 }
 
+.features .row .txt h6 {
+    color: #463fa5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.features .row .txt h3 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.features .row .txt p {
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+
 .row:nth-child(2) {
     display: flex;
     flex-direction: row-reverse;
