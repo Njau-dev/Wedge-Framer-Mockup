@@ -39,3 +39,9 @@ font-size: 25px;
 .rapid{
     float:left;
 }
+#backk{
+    background-image: url(softpurple.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
