@@ -1,0 +1,173 @@
+/* nav  */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo  {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logins a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logins button {
+    border: none;
+    background-color: #463fa5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: white;
+} 
+/* nav end  */
+.heading {
+    text-align: center;  
+}
+.form {
+    margin-top: 70px;
+    background-image:url("https://framerusercontent.com/images/CdpIZhKZWupEPdxvICwXdUkgRxo.png");
+    height: 500px;
+    padding-left: 200px;
+    align-content: center;
+    border-radius: 15px; 
+    width: 1050px;
+}
+.container.form input[type="text"] {
+    width: 298px; /* Adjust the width to your desired value */
+    margin-left: 5px;
+}
+ 
+input[type="text"],
+textarea {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btn {
+    width: 600px;
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+ /* card styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    border: none;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+.card-icon {
+    font-size: 2rem;
+    color: #4e5dff;
+    margin-bottom: 10px;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.equal-height {
+    display: flex;
+    align-items: stretch;
+}
+/* end card styling */
+
+/* FAQS */
+.accordion {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.accordion-item {
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+#FAQ {
+    margin-top: 100px;
+}
+/* End FAQ */
+
+/* hero-section*/
+.hero-section {
+    background-image: url("https://framerusercontent.com/images/CdpIZhKZWupEPdxvICwXdUkgRxo.png");
+    padding: 60px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.btn-get-started {
+    background-color: #4e5dff;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+/* end hero-section */
+
+/* footer */
+.footer {
+    padding: 20px 0;
+    margin-top: 200px;
+}
+.footer h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+.last {
+    text-align: center;
+    padding: 20px 0;
+}
+.last p {
+    margin: 0;
+}
