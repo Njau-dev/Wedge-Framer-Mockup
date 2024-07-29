@@ -1,0 +1,96 @@
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo  {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logins a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logins button {
+    border: none;
+    background-color: #463fa5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: white;
+} 
+/* nav end */
+
+/* FAQS */
+.accordion {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    
+}
+.accordion-item {
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+#FAQ {
+    margin-top: 100px;
+    
+}
+/* End FAQ */
+.background {
+    display: flex;
+    flex-direction: row;
+    min-width: auto;
+    min-height: 350px;
+    border-radius: 20px;
+    margin: 200px 120px;
+    padding-left: 50px;
+    
+ }
+ .one{
+    padding-top: 60px;
+    padding-left: 100px;
+    font-size: 25px;
+ }
+ 
+ .button button {
+    background-color: blue;
+    color: white;  
+    padding: 15px 40px;   
+    border: none;           
+    border-radius: 5px;     
+    cursor: pointer;     
+    font-size: 16px;   
+    border-radius: 10px;   
+    margin-left: 210px;
+    margin-top: 130px;   
+}
+.button button:hover {
+    background-color: rgb(3, 3, 96); 
+    transition: 3s;
+}
