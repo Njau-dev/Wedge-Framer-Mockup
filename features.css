@@ -115,3 +115,57 @@ body {
     overflow-x: visible;
     padding-bottom: 100px;
 }
+
+.features {
+    margin-top: 200px;
+
+}
+
+.features .row .txt h6 {
+    color: #463fa5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.features .row .txt h3 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.features .row .txt p {
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+
+.row:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.row {
+    height: 672px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 96px;
+
+}
+
+.row img {
+    height: 100%;
+
+}
+
+.txt {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
