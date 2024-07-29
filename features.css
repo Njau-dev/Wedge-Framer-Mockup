@@ -1,0 +1,117 @@
+body {
+    
+    width: 100%;
+}
+
+/* nav  */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo  {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logins a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logins button {
+    border: none;
+    background-color: #463fa5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: white;
+} 
+
+/* nav end  */
+.header {
+    background-color: #f6f5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 80px 128px 80px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    height: 350px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content h1 {
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    text-wrap: wrap;
+    
+}
+
+.content p {
+    color: #455366;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.content .btns button {
+    width: 160px;
+    height: 52px;
+    padding: 16px 28px;
+    margin: 10px;
+    border-radius: 16px;
+    border: none;
+}
+
+.content .btns .purple-btn {
+    background-color: #463fa5;
+    color: white;
+    
+}
+
+.banner-img {
+    background-image: linear-gradient(#f6f5ff, #b8b3ff 95%);
+    width: 109%;
+    padding: 0;
+    overflow-x: visible;
+    padding-bottom: 100px;
+}
