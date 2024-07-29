@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+body {
+    
+    width: 100%;
+}
+
+/* nav  */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo  {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logins a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logins button {
+    border: none;
+    background-color: #463fa5;
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: white;
+} 
+
+/* nav end  */
+
+/* banner /header */
+
+.header {
+    background-color: #f6f5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 80px 128px 80px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    height: 350px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content h1 {
+    font-size: 72px;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+    text-wrap: wrap;
+    
+}
+
+.content p {
+    color: #455366;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.content .btns button {
+    width: 160px;
+    height: 52px;
+    padding: 16px 28px;
+    margin: 10px;
+    border-radius: 16px;
+    border: none;
+}
+
+.content .btns .purple-btn {
+    background-color: #463fa5;
+    color: white;
+    
+}
+
+.banner-img {
+    background-image: linear-gradient(#f6f5ff, #b8b3ff 95%);
+    width: 109%;
+    padding: 0;
+    overflow-x: visible;
+    padding-bottom: 100px;
+}
+
+
+/* banner end  */
+
+/* scroll logos  */
+
+.trustees {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.trustees h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* scroll end  */
+
+
+/* wedge  */
+
+.wedge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.wedge h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #f6f5ff;
+    height: 340px;
+    width: 420px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    flex: 1 0 0px;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card i {
+    color: #463fa5;
+    
+}
+
+.card-txt h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.card-txt p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+/* wedge end  */
+
+/* features  */
+
+.features {
+    margin-top: 200px;
+
+}
+
+.features .row .txt h6 {
+    color: #463fa5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.features .row .txt h3 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.features .row .txt p {
+    font-weight: 300;
+    letter-spacing: 0.8px;
+}
+
+.row:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.row {
+    height: 672px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 96px;
+
+}
+
+.row img {
+    height: 100%;
+
+}
+
+.txt {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* features end  */
+
+/* reviews  */
+
+.h-rev {
+    text-align: center;
+    margin: 200px 0 50px 0;
+}
+
+.h-rev h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+.reviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.client {
+    width: 400px;
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.client .stars {
+    color: #463fa5;
+}
+
+.client p {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
+}
+
+
+.client .customer {
+    display: flex;
+    gap: 1rem;
+}
+
+.client .customer h6 {
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.client .customer .custompic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* reviews end  */
+
+
+
+
+/* footer */
+
+.frow{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 100px 0;
+}
+
+.col{
+  
+    margin: 0 10px;                  
+}
+
+.col ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;         
+}
+
+.col ul li {
+    line-height: 2.7;
+}
+
+.col ul li a {
+    text-decoration: none;
+    color: #333;              
+    transition: color 0.3s, background-color 0.3s; 
+    font-weight: bold;        
+}
+
+.col ul li a:hover {
+    background-color: #e9ecef; 
+    padding: 5px 10px;
+    border-radius: 5px;        
+    color: #007bff;            
+}
+
+
+/* footer end  */
